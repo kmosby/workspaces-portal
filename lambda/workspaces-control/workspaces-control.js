@@ -70,7 +70,7 @@ exports.handler = (event, context, callback) => {
                                         } else {
                                             callback(null, {
                                                 "statusCode": 200,
-                                                "body": JSON.stringify(data.Workspaces[0]),
+                                                "body": JSON.stringify(null[0]),
                                                 "headers": {
                                                     "Access-Control-Allow-Headers": "Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token",
                                                     "Access-Control-Allow-Methods": "GET,OPTIONS",
